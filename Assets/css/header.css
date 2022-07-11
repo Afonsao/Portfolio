@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    padding: 30px;
+    color: var(--red);
+}
+.nav_list{
+    display: flex;
+    padding: 30px;
+    color:var(--red);
+}
+.nav_list-item{
+    text-decoration: none;
+    padding: 0 30px 0 30px;
+    color:var(--green);
+    font-size: 20px;
+    background: var(--gray);
+    transition: all 0,3 cubic-bezier(0.19, 1, 0.22, 1);
+}
+.nav_list-item:hover
+{
+    color: var(--red);
+    transition: all 0.2s ease;
+    text-shadow:2px 10px 10px var(--red);
+    text-decoration:underline;
+}

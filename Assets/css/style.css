@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+:root
+{
+--gray:#1e1f26;
+--green:#03dac6;
+--red:#ff0266;
+--offwhite:#EDF2F4;
+}
+body{
+    font-family: "Orbitron";
+    background-color:var(--gray);
+}
